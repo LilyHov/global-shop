@@ -1,0 +1,43 @@
+{
+  "cart": "Carrello",
+  "totalCart": "Totale carrello",
+  "total": "Totale",
+  "product": "Prodotto",
+  "price": "Prezzo",
+  "quantity": "Quantità",
+  "subTotal": "Totale ordine",
+  "deliveryCost": "Costo di spedizione",
+  "discountQuestion": "Hai un codice sconto",
+  "insertCode": "inserisci codice",
+  "apply": "Applica",
+  "checkoutProcess": "Conferma l’ordine",
+  "acceptAndContinue": "Continua",
+  "addToStore": "Aggiungi al carrello",
+
+  "smartShopping": "SMART SHOPPING",
+  "myShop": "MY SHOP",
+  "aboutShop": "CONTATTI",
+  "orders": "ORDINI",
+  "payments": "PAGAMENTI",
+  "shipments": "SPEDIZIONI",
+  "returns": "CAMBI, RESI, RIMBORSI",
+  "myAccount": "Il mio account",
+  "privacyPolicy": "Privacy Policy my shop",
+  "termsAndConditions": "TEMINI e CONDIZIONI D'USO",
+  "cookiePolicy": "Cookie Policy",
+
+  "storeEmptyText": "Il tuo carrello è vuoto",
+
+  "resetPasswordHeaderText": "Inserisci email per resettare la password",
+  "controlEmailText": "Per favore controlla la tua email",
+  "submitText": "Invia",
+  "cancelText": "Annulla",
+  "prezzoRetail": "Prezzo Retail",
+  "prezzoOutlet": "Prezzo Outlet",
+  "sconto": "Sconto %",
+  "specialPrice": "Special Price",
+  "alreadyExistsModal": {
+    "title": "Attenzione",
+    "description": "L'articolo e' gia' presente nell carrello"
+  }
+}
