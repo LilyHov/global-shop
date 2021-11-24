@@ -1,14 +1,10 @@
 const Products = {
     getProducts: () =>
-        import('mock/products-list.json').then(
-            (response) => response.default
-        )
+        import('../../mock/products-list.json')
 }
 const Settings = {
     getSettings: () =>
-        import('mock/settings.json').then(
-            (response) => response.default
-        )
+        import('../../mock/settings.json')
 }
 
 export default {

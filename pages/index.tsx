@@ -1,11 +1,15 @@
-import Index from "../components/layout";
+import Layout from "../components/layout";
 import {getNavigation} from "../lib/content";
+import ProductCard from '../components/product-card';
+import agent from './api/agent';
+import React from "react";
 
-export default function Home({categories}) {
+export default function Home() {
   return (
-      <Index title="Next Sample" categories={categories}>
-        Hello World!
-      </Index>
+      <Layout>
+       <ProductCard/>
+          {console.log(agent, 'products')}
+      </Layout>
   )
 }
 

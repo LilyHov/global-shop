@@ -8,6 +8,7 @@ export function getPaths(){
         return category.cultures.map(item => {
             return {
                 params: {
+                    currency: category.currencyCode,
                     category: category.countryCode.replace(' ', '_'),
                     item: item.code.replace(' ', '_'),
                 }
