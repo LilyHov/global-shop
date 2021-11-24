@@ -25,9 +25,8 @@ export default function Layout({children}) {
                     </Typography>
                     <Box sx={{ display:'flex' }}>
                         <Button color="inherit">
-                            Germany Store
+                            USA
                         </Button>
-                        {console.log(getPaths(), 'stores')}
                     </Box>
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display:'flex' }}>
