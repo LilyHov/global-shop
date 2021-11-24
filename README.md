@@ -1,4 +1,4 @@
-TThis site created with NextJS on React, using Material UI for the layout, and Cypress for testing. It also uses Typescript instead of javascript. 
+This site created with NextJS on React, using Material UI for the layout, and Cypress for testing. It also uses Typescript instead of javascript. 
 
 To setup the project after downloading/cloning it from github, simply run `npm install`, to get all the dependencies installed.
 
