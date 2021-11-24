@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 import styles from './home.module.scss';
+import {route} from "next/dist/server/router";
 
 const image = 'images/home-banner.jpeg';
 
@@ -29,7 +30,7 @@ export default function Home() {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="medium">Shop</Button>
+                <Button size="medium" >Shop</Button>
             </CardActions>
         </Card>
     );
