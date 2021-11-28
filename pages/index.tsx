@@ -9,7 +9,6 @@ export default function Home() {
   return (
       <Layout>
        <HomeContent/>
-          {console.log(agent, 'products')}
       </Layout>
   )
 }

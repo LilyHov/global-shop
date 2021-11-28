@@ -1,6 +1,8 @@
 import getConfig from 'next/config';
 import axios from 'axios';
 
+ //its for future when api will be done
+
 class Api {
   constructor(resource = '') {
     const {

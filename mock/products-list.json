@@ -6,7 +6,7 @@
   "products": [
     {
       "name": "Vivamus magna",
-      "image": "https://<...>.jpg",
+      "image": "https://cdn.pixabay.com/photo/2020/05/26/09/32/product-5222398_960_720.jpg",
       "isInStock": true,
       "price": {
         "amount": 1500,
@@ -15,7 +15,7 @@
     },
     {
       "name": "Sed vitae",
-      "image": "https://<...>.jpg",
+      "image": "https://lh3.googleusercontent.com/3vbmf-fE3hNTz_sGEcwIXWDO025BKBEfKgf8kLwMUqsTGFJNuEsBevc5aoUDXs0LeGQuxV3I55z3JelOJRYTxKzdoTWPoueELAx2WWZ-b-XO5vK1VQ",
       "isInStock": false,
       "price": {
         "amount": 4200,

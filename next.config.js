@@ -19,17 +19,17 @@ module.exports = {
       //   permanent: false,
       // },
       // Wildcard Path Matching - will match `/blog/a` and `/blog/a/b`
-      {
-        source: '/shop/:slug*',
-        destination: '/shop/:slug*',
-        permanent: false,
-      },
-      // Regex Path Matching - The regex below will match `/post/123` but not `/post/abc`
-      {
-        source: '/shop/:slug(\\d{1,})',
-        destination: '/shop/:slug',
-        permanent: false,
-      },
+      // {
+      //   source: '/shop/:slug*',
+      //   destination: '/shop/:slug*',
+      //   permanent: false,
+      // },
+      // // Regex Path Matching - The regex below will match `/post/123` but not `/post/abc`
+      // {
+      //   source: '/shop/:slug(\\d{1,})',
+      //   destination: '/shop/:slug',
+      //   permanent: false,
+      // },
     ]
   },
 }

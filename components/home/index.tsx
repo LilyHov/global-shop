@@ -5,15 +5,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import { useRouter } from 'next/dist/client/router';
 import styles from './home.module.scss';
-import {route} from "next/dist/server/router";
 
 const image = 'images/home-banner.jpeg';
 
 export default function Home() {
+    const router = useRouter();
     return (
-        <Card className={styles.wrapper}>
+        <Card className={styles.wrapper} onClick={() => router?.push('/shop')}>
             <CardMedia
                 component="img"
                 height="350"
@@ -25,8 +25,7 @@ export default function Home() {
                     Products
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                   Best shop ever
                 </Typography>
             </CardContent>
             <CardActions>
